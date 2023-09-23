@@ -1,5 +1,8 @@
 import "./sidebar.css"
 import { RssFeed, Chat, PlayCircle, Group, Bookmark, Help, Work, Event, School } from "@mui/icons-material"
+import { Users } from "../../Randompeople"
+import CloseFriend from "../close friends/CloseFriend"
+
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -45,30 +48,9 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
-          <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="sidebarFriendName">Jane </span>
-          </li>
+          {Users.map((u) => (
+            <CloseFriend key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>
