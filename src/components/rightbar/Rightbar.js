@@ -39,28 +39,28 @@ export default function Rightbar({ profile }) {
         <h4 className="rightbarTitle">User Friends</h4>
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="./assets/kim.webp" alt="" />
+            <span className="rightbarFollowingName">Kim Kardashian</span>
           </div>
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="assets/donaldtrump.webp" alt="" />
+            <span className="rightbarFollowingName">Donald Trump</span>
           </div>
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="assets/jamief.webp" alt="" />
+            <span className="rightbarFollowingName">Jamie Foxx</span>
           </div>
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="assets/wills.jpeg" alt="" />
+            <span className="rightbarFollowingName">Will Smith</span>
           </div>
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="assets/lebron.jpeg" alt="" />
+            <span className="rightbarFollowingName">Lebron James</span>
           </div>
           <div className="rightbarFollowing">
-            <img className="rightbarFollowingImg" src="./assets/kanye.jpeg" alt="" />
-            <span className="rightbarFollowingName">Kanye West</span>
+            <img className="rightbarFollowingImg" src="assets/kh.jpeg" alt="" />
+            <span className="rightbarFollowingName">Kevin Hart</span>
           </div>
         </div>
       </>
@@ -69,7 +69,7 @@ export default function Rightbar({ profile }) {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        {profile ? <ProfileRightbar/> : <HomeRightbar />}
+        {profile ? <ProfileRightbar /> : <HomeRightbar />}
       </div>
     </div>
   )

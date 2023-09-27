@@ -76,3 +76,6 @@ object-fit: contain;
   border-bottom: 1px dashed gray;
 
 }
+.postCommentText:hover{
+  color: #BD1819;;
+}

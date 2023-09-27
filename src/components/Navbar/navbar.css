@@ -1,7 +1,7 @@
 .navbarContainer{
   height: 50px;
   width: 100%;
-  background-color: blue;
+  background-color: #BD1819;
   display: flex;
   align-items: center;
   position: sticky;
@@ -79,5 +79,13 @@
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
+}
+.signOutBtn{
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  font-weight: 500;
+  border: black;
   cursor: pointer;
 }

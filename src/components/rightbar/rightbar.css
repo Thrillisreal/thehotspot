@@ -34,11 +34,18 @@
 .rightbarFriendlist{
   padding: 0;
   list-style: none;
+  cursor: pointer;
 }
+.rightbarFriendlist:hover{
+  color:#BD1819;
+}  
 .rightbarTitle{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+.rightbarFollowingName{
+    font-weight: 500;
 }
 
 .rightbarInfo{
