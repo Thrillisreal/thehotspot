@@ -7,6 +7,9 @@ export default function Register() {
   function handleRegClick() {
     navigate2("/username:")
   }
+  function handleRegClick2() {
+    navigate2("/")
+  }
   return (
     <div className="login">
       <div className="loginWrapper">
@@ -21,7 +24,7 @@ export default function Register() {
             <input placeholder="Password" className="loginInput" />
             <input placeholder="Password Again" className="loginInput" />
             <button onClick={handleRegClick} className="loginButton">Sign Up</button>
-            <button onClick={handleRegClick} className="loginRegisterButton">Login into Account</button>
+            <button onClick={handleRegClick2} className="loginRegisterButton">Login into Account</button>
           </div>
         </div>
       </div>
