@@ -6,10 +6,10 @@ export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
     return (<>
       <div className="birthdatContainer">
-        <img className="birthdayImg" src="./assets/kanye.jpeg" alt="" />
-        <span className="birthdayText"><b>Jess</b> and <b>3 others</b> have a birthday today</span>
+        <img className="birthdayImg" src="./assets/kim.webp" alt="" />
+        <span className="birthdayText"><b>Kim</b> and <b>3 others</b> have a birthday today</span>
       </div>
-      <img className="rightbarAd" src="./assets/kanye.jpeg" alt="" />
+      <img className="rightbarAd" src="./assets/birthday.png" alt="" />
       <h4 className="rightbarTitle">Online Friends</h4>
       <ul className="rightbarFriendList">
         {Users.map((u) => (
