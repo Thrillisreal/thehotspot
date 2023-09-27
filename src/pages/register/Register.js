@@ -12,7 +12,7 @@ export default function Register() {
       <div className="loginWrapper">
         <div className="loginLeft">
           <h3 className="loginLogo">TheHotSpot</h3>
-          <span className="loginDesc">Meet new people anywhere on H</span>
+          <span className="loginDesc">Meet new people anywhere!</span>
         </div>
         <div className="loginRight">
           <div className="loginBox">
